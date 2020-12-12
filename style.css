@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #E8E8E8;
+	font-size: 28px;
+	font-family: 'Parisienne', cursive;
+	
+}
+
+
+h6,p{
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 100;
+}
+h1{
+	background: #fff;
+	text-shadow: 0 7px 9px rgba(0,0,0,0.7)
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	padding-top: 20px;
+
+}
+input{box-shadow: 0 3px 6px rgba(0,0,0,0.8);
+	background: #fff;
+	padding: 10px;
+	font-size: 18px;
+	width: 60%px;
+	border: transparent;
+
+}
+button{
+	margin: 10px;
+	padding:5px 20px;
+	background: #336699;
+	border-radius: 10%;
+	color:#fff;
+	border: transparent;
+
+}
+.div1{
+
+	
+	margin-top: 20px;
+	background: 	#E8E8E8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+img{
+	width: 40%;
+	height: 20%;
+	box-shadow: 0 9px 26px rgba(0,0,0,0.8);
+}
+img:hover{
+	transform: rotate(20deg);
+	transition:all 3s ease;
+		transform: rotateZ(20deg);
+		transform: rotateY(120deg);
+		clip-path: 800;
+}
